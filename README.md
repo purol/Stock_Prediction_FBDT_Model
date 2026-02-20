@@ -40,10 +40,10 @@ This repository contains an end-to-end quantitative finance machine learning pip
 
 ## Results & Visualizations
 
-### Model Evaluation (Train vs. Test AUC)
-Plotted the grid search results comparing Training AUC to Testing AUC across thousands of hyperparameter permutations to strictly control for overfitting.
+### Model Evaluation (Train vs. Test)
+The plot below visualizes the FastBDT probability output for both Signal (price up) and Background (otherwise). The solid histograms represent the training data, while the scatter points represent the unseen testing data. 
 <p align="center">
-  <img src="plot/AUC.png" alt="AUC Plot" width="600"/>
+  <img src="plot/BDT_output.png" alt="BDT output Plot" width="600"/>
 </p>
 
 ---
