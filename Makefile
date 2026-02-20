@@ -24,7 +24,7 @@ OBJS = $(MAINS:%.cc=$(TMPDIR)/%.o)
 
 .PHONY : all clean
 
-all: $(TARGETS)
+all: directories $(TARGETS)
 
 directories:
 	mkdir -p $(BINDIR) $(TMPDIR)
