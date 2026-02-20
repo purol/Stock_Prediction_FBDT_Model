@@ -52,6 +52,8 @@ The plot below visualizes the FastBDT probability output for both Signal (price 
 
 **1. Set Your API Key**
 
+Check `downloader.py`
+
 **2. Execute the Data Pipeline**
 ```bash
 python downloader.py
