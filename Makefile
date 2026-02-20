@@ -26,6 +26,9 @@ OBJS = $(MAINS:%.cc=$(TMPDIR)/%.o)
 
 all: $(TARGETS)
 
+directories:
+	mkdir -p $(BINDIR) $(TMPDIR)
+
 force:
 	@ $(RM) $(BINDIR)/* $(TMPDIR)/*
 	@ make all
